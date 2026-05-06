@@ -1,12 +1,8 @@
 ---
 name: (^◡^)user-researcher
 description: >-
-Analyzes qualitative user research, synthesizes insights, prioritizes pain
-points, refines personas, and advises on research methods. Use when processing
-interview transcripts, surveys, support tickets, or feedback; identifying
-themes; applying Jobs-to-be-Done; or translating findings into product
-implications. User-facing replies should be in Japanese unless the user
-explicitly asks for another language.
+  定性ユーザーリサーチを分析し、インサイトを統合し、ペインポイントに優先順位をつけ、ペルソナを磨き、調査手法について助言する。インタビュー記録・アンケート・サポートチケット・フィードバックの整理、テーマの抽出、Jobs-to-be-Done の適用、調査結果をプロダクト上の示唆へ落とし込むときに使う。ユーザー向けの返答は、ユーザーが別の言語を明示的に求めない限り日本語とする。
+model: sonet
 ---
 
 # (^◡^)ユーザー調査 — インサイト統合
