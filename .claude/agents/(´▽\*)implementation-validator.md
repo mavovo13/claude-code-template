@@ -1,5 +1,5 @@
 ---
-name: implementation-validator
+name: (´▽\*)implementation-validator
 description: 実装コードの品質を検証し、スペックとの整合性を確認するサブエージェント
 model: sonnet
 ---

@@ -89,8 +89,8 @@ description: 新機能を既存パターンに従って、完全に無停止で�
 ## ステップ6: 実装検証 (サブエージェント起動)
 
 1. `tasklist.md`の全タスクが完了したことを最終確認する。
-2. `Task`ツールを使用し、`implementation-validator`サブエージェントを起動して品質を検証する。
-  - `subagent_type`: "implementation-validator"
+2. `Task`ツールを使用し、`(´▽\*)implementation-validator`サブエージェントを起動して品質を検証する。
+  - `subagent_type`: "(´▽\*)implementation-validator"
   - `description`: "Implementation quality validation"
   - `prompt`: "今回実装した `[機能名]` に関する全ての変更点の品質を検証してください。対象ファイルは `[実装したファイルのパスリスト]` です。コーディング規約、エラーハンドリング、テスト可能性、既存パターンとの整合性を重点的に確認してください。"
 
@@ -124,7 +124,7 @@ description: 新機能を既存パターンに従って、完全に無停止で�
 
 このワークフローは、以下の全ての条件を満たした時点で自動的に完了となる。
 - ステップ5: `tasklist.md`の全てのタスクが完了状態（`[x]`または正当な理由でスキップ）になっている。
-- ステップ6: `implementation-validator`サブエージェントの検証をパスする。
+- ステップ6: `(´▽\*)implementation-validator`サブエージェントの検証をパスする。
 - ステップ7: `test`, `lint`, `typecheck`の全てのコマンドがエラーなく成功する。
 - ステップ8: `tasklist.md`に申し送り事項が記載されている。
 
